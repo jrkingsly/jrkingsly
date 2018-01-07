@@ -25,7 +25,6 @@ Template Name: Homepage
 	<div class="small-12 medium-8 columns">	
 		<h1>A little about me</h1>		
 		<p>I started my career as a Digital Project Manager for R&R. After realizing that </p>
-		sdkjhgskldgsdgnskd
 	</div>		
 	<div class="small-12 medium-4 columns">
 		<h1>Skills</h1>
