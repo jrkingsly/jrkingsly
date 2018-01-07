@@ -12,7 +12,7 @@ Template Name: Homepage
 			<h1>Hello</h1>
 			<div class="row">
 				<div class="small-12 medium-3 columns">
-					<div class="hp-selfie parallax-window" data-parallax="scroll" data-image-src="/jrkingsly/wp-content/themes/jrkingsly/assets/images/me_2.jpg" style="border-radius: 50%;"></div>	
+					<div class="hp-selfie parallax-window" data-parallax="scroll" data-image-src="/jrkingsly/wp-content/uploads/2018/01/me.png" style="border-radius: 50%;"></div>	
 				</div>
 				<div class="small-12 medium-9 columns">	
 					<p>Welcome to my site. My name is Justin Kingsly Rosen and I'm a WordPress developer. I live in Las Vegas and work for R&R Partners.</p>
