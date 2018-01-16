@@ -4419,7 +4419,7 @@ HEADER STYLES
     list-style: none; }
   .header .header-container {
     z-index: 1000;
-    background: #230F2B; }
+    background: rgba(35, 15, 43, 0.5); }
   .header .logo {
     font-family: 'Monoton', cursive;
     color: #FF7200;
