@@ -36,11 +36,11 @@ Template Name: Homepage
 	</div>		
 	<div class="small-12 medium-4 columns">
 		<h1>Skills</h1>
-		<h3>Languages</h3>
+		<h3><i class="fa fa-code" aria-hidden="true"></i> Languages</h3>
 		<ul>
-			<li>HTML</li>
-			<li>CSS/SCSS</li>
-			<li>JS/JQuery</li>
+			<li><i class="fa fa-html5" aria-hidden="true"></i> HTML</li>
+			<li><i class="fa fa-css3" aria-hidden="true"></i> CSS/SCSS</li>
+			<li><i class="icon-javascript"></i> JS/JQuery</li>
 			<li>PHP</li>
 		</ul>
 		<h3>Frameworks</h3>
@@ -50,7 +50,7 @@ Template Name: Homepage
 		</ul>
 		<h3>CMS/Software</h3>
 		<ul>
-			<li>WordPress</li>
+			<li><i class="fa fa-wordpress" aria-hidden="true"></i> WordPress</li>
 			<li>Photoshop</li>
 			<li>Google Web Designer</li>
 			<li>Keynote</li>

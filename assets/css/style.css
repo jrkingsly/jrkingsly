@@ -4426,7 +4426,10 @@ HEADER STYLES
     border-bottom: none;
     text-align: center;
     font-size: 3.5rem;
-    margin-bottom: inherit; }
+    margin-bottom: inherit;
+    transition: ease-in-out .25s; }
+  .header .logo:hover {
+    color: #fff; }
   .header #nav {
     transition: top .5s;
     background: #FF7200;
@@ -4447,7 +4450,10 @@ HEADER STYLES
     text-align: right; }
     .header .nav-social i {
       padding: 0 5px;
-      color: #FF7200; }
+      color: #FF7200;
+      transition: ease-in-out .25s; }
+    .header .nav-social i:hover {
+      color: #fff; }
 
 .header.shrink {
   height: 75px; }

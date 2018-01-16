@@ -14,6 +14,8 @@ function site_scripts() {
     // Parallax.js
 	wp_enqueue_script( 'parallax-js', get_template_directory_uri() . '/assets/js/parallax.min.js', array( 'jquery' ), '', true );
 	
+	wp_enqueue_style( 'font-mfizz', get_template_directory_uri() . '/vendor/font-mfizz-2.4.1/font-mfizz.css', array(), '2.4.1', 'all' );
+	
     // Register main stylesheet
     wp_enqueue_style( 'site-css', get_template_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
 

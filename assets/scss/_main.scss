@@ -103,6 +103,11 @@ HEADER STYLES
 		text-align: center;
 		font-size: 3.5rem;
 		margin-bottom: inherit;
+		transition: ease-in-out .25s;
+	}
+	
+	.logo:hover {
+		color: #fff;
 	}
 	
 	#nav {
@@ -133,6 +138,11 @@ HEADER STYLES
 		i {
 			padding: 0 5px;
 			color: $orange;
+			transition: ease-in-out .25s;
+		}
+		
+		i:hover {
+			color: #fff;
 		}
 	}
 }
