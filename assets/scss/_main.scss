@@ -8,9 +8,25 @@ Stylesheet: Main Stylesheet
 GENERAL STYLES
 *********************/
 
+html {
+	height: 100%;
+	margin: 0;
+}
+
 body {
 	background: $body-background;
+	height: 100%;
+	margin: 0;
 }
+
+.body-content {
+	margin-top: 100px;
+}
+
+.section-padding {
+	padding: 30px 0;
+}
+
 
 /*********************
 LINK STYLES
@@ -37,6 +53,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 h1, .h1 {
 	border-bottom: 1px solid $orange;
+	margin-bottom: 30px;
 }
 
 h2, .h2 {
@@ -59,8 +76,24 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: auto;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+	
 	ul.off-canvas-list li {
 		list-style: none;
+	}
+	
+	.header-container {
+		z-index: 1000;
+		background: $body-background;
 	}
 	
 	.logo {
@@ -68,7 +101,53 @@ HEADER STYLES
 		color: $orange;
 		border-bottom: none;
 		text-align: center;
+		font-size: 3.5rem;
+		margin-bottom: inherit;
 	}
+	
+	#nav {
+		transition: top .5s;
+		background: $orange;
+		position: fixed;
+		top: -200px;
+		transition: top .5s;
+		width: 100%;
+		z-index: 500;
+		display: block;
+		
+		a{
+			color: $body-background;
+			font-size: 20px;
+		}
+	}
+	
+	#nav.open {
+		top: 75px;
+	}
+	
+	.nav-social {
+		font-size: 26px;
+		margin-top: 23px;
+		text-align: right;
+		
+		i {
+			padding: 0 5px;
+			color: $orange;
+		}
+	}
+}
+
+.header.shrink {
+	height: 75px;
+	
+	.logo {
+		font-size: 3rem;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	
+	#hamburger {}
 }
 
 #hamburger {
@@ -185,10 +264,22 @@ NAVIGATION STYLES
 HOMEPAGE STYLES
 *********************/
 
+.intro {
+	margin-bottom: 50px;
+}
+
 .hp-selfie {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+}
+
+.about-me {
+	padding-right: 75px;
+	
+	h1 {
+
+	}
 }
 
 /*********************
@@ -608,6 +699,16 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	margin-top: 1em;
+	height: 100px;
+}
+
+.push {
+	height: 100px;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -100px;
 }
 	
 /*********************

@@ -25,6 +25,7 @@
 	    	<meta name="theme-color" content="#121212">
 	    <?php } ?>
 		<link href="https://fonts.googleapis.com/css?family=Saira:300,400,700|Monoton" rel="stylesheet">
+		<script src="https://use.fontawesome.com/5fd4c2bd7a.js"></script>
 		
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -38,20 +39,33 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
+		<div class="wrapper">
 
-		<div class="header">
-			<div class="row">
-				<div class="small-12 medium-4 columns">
-					<div id="hamburger">
-						<span></span>
-						<span></span>
-						<span></span>
+			<div class="header">
+				<div class="row header-container">
+					<div class="small-12 medium-4 columns">
+						<div id="hamburger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
 					</div>
+					<div class="small-12 medium-4 columns">
+						<a href="/"><h1 class="logo">JKR</h1></a>
+					</div>
+					<div class="small-12 medium-4 columns nav-social">
+						<a href="https://www.facebook.com/jrkingsly" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/justin-rosen-01154136/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href="mailto:j11622@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+					</div>			
 				</div>
-				<div class="small-12 medium-4 columns">
-					<h1 class="logo">JKR</h1>
-				</div>
-				<div class="small-12 medium-4 columns">
-				</div>			
-			</div>	
-		</div>	
+				<nav id="nav">
+					<div class="row">
+						<div class="small-12 columns">
+							<?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
+						</div>
+					</div>		
+				</nav>		
+			</div>
+			
+			<div class="body-content">	
