@@ -19,7 +19,7 @@ Template Name: Homepage
 				<div class="small-12 medium-9 columns section-padding">	
 					<p>Welcome to my site. My name is Justin Kingsly Rosen and I'm a WordPress developer. I live in Las Vegas and have worked for R&R Partners since 2011.</p>
 					<p>This site is built in WordPress using a custom theme. No templates here. I'm using Foundation 6 as my framework with SCSS. I'm using a GitHub repo and Gulp to commit my changes from local to live.</p>
-					<p>This site is a work in progress. Thank you for your patience as I continue to add content and refine the experience.</p>
+					<p style="color: #FF7200;">This site is a work in progress. Thank you for your patience as I continue to add content and refine the experience.</p>
 				</div>
 			</div>		 
 		</div>
