@@ -41,30 +41,31 @@ Template Name: Homepage
 			<li><i class="fa fa-html5" aria-hidden="true"></i> HTML</li>
 			<li><i class="fa fa-css3" aria-hidden="true"></i> CSS/SCSS</li>
 			<li><i class="icon-javascript"></i> JS/JQuery</li>
-			<li>PHP</li>
+			<li><i class="icon-php-alt"></i> PHP</li>
 		</ul>
-		<h3>Frameworks</h3>
+		<h3><i class="fa fa-sitemap" aria-hidden="true"></i> Frameworks</h3>
 		<ul>
 			<li>Zurb Foundation (preferred)</li>
 			<li>Bootstrap</li>
 		</ul>
-		<h3>CMS/Software</h3>
+		<h3><i class="fa fa-user-circle-o" aria-hidden="true"></i> CMS/Software</h3>
 		<ul>
-			<li><i class="fa fa-wordpress" aria-hidden="true"></i> WordPress</li>
-			<li>Photoshop</li>
-			<li>Google Web Designer</li>
-			<li>Keynote</li>
+			<li><i class="icon-wordpress"></i> WordPress</li>
+			<li><i class="fa fa-crop" aria-hidden="true"></i> Photoshop</li>
+			<li><i class="fa fa-google" aria-hidden="true"></i> Google Web Designer</li>
 		</ul>
-		<h3>Misc Web Skills</h3>
+		<h3><i class="fa fa-globe" aria-hidden="true"></i> Misc Web Skills</h3>
 		<ul>
-			<li>Google Analytics (Certified)</li>
-			<li>Google Tag Manager</li>
-			<li>GitHub</li>
-			<li>Domain/Hosting Management</li>
-			<li>MAMP/Local Development</li>
-			<li>OS X Command Line (Terminal)</li>
-			<li>phpMyAdmin</li>
-			<li>Email Marketing Services (MailChimp, Constant Contact, etc)</li>			
+			<li><i class="fa fa-line-chart" aria-hidden="true"></i> Google Analytics (Certified)</li>
+			<li><i class="fa fa-google" aria-hidden="true"></i> Google Tag Manager</li>
+			<li><i class="fa fa-github" aria-hidden="true"></i> GitHub</li>
+			<li><i class="fa fa-link" aria-hidden="true"></i> Domain/Hosting Management</li>
+			<li><i class="fa fa-desktop" aria-hidden="true"></i> MAMP/Local Development</li>
+			<li><i class="icon-shell"></i> OS X Command Line (Terminal)</li>
+			<li><i class="fa fa-database" aria-hidden="true"></i> phpMyAdmin</li>
+			<li><i class="icon-npm"></i> NPM</li>
+			<li><i class="icon-gulp"></i> Gulp / <i class="icon-grunt"></i> Grunt</li>
+			<li><i class="fa fa-envelope-o" aria-hidden="true"></i> Email Marketing Services (MailChimp, Constant Contact, etc)</li>			
 	</div>	
 </div>		
 
