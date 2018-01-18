@@ -11,7 +11,7 @@ Template Name: Contact
 <div class="row">
 	<div class="small-12 columns">
 		<h1>Contact Me</h1>
-		<?php the_content(); ?>
+		<p><?php the_content(); ?></p>
 	</div>	
 </div>
 
