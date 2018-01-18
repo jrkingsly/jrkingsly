@@ -6,6 +6,9 @@ Template Name: Homepage
 
 <?php get_header(); ?>
 
+<?php while ( have_posts() ) : the_post(); ?> 
+
+
 <div class="intro">
 	<div class="row">
 		<div class="small-12 columns">
@@ -67,6 +70,8 @@ Template Name: Homepage
 			<li><i class="icon-gulp"></i> Gulp / <i class="icon-grunt"></i> Grunt</li>
 			<li><i class="fa fa-envelope-o" aria-hidden="true"></i> Email Marketing Services (MailChimp, Constant Contact, etc)</li>			
 	</div>	
-</div>		
+</div>
+
+<?php endwhile; ?>	
 
 <?php get_footer(); ?>
