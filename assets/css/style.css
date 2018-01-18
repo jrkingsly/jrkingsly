@@ -4406,7 +4406,8 @@ h1, .h1 {
 label {
   font-family: "Saira", sans-serif;
   color: #fff;
-  font-size: inherit; }
+  font-size: inherit;
+  font-weight: normal; }
 
 /*********************
 HEADER STYLES
@@ -4738,6 +4739,11 @@ COMMENT FORM STYLES
 
 .nocomments {
   margin: 0 20px 1.1em; }
+
+.caldera-grid .btn-default {
+  background-color: #FF7200;
+  border: none;
+  color: #230F2B; }
 
 /*********************
 SIDEBARS & ASIDES
