@@ -76,6 +76,7 @@ label {
 	font-family: $body-font-family;
 	color: #fff;
 	font-size: inherit;
+	font-weight: normal;
 }
 
 /*********************
@@ -676,6 +677,15 @@ COMMENT FORM STYLES
 // No comments  
 .nocomments {
 	margin: 0 20px 1.1em;
+}
+
+.caldera-grid {
+	
+	.btn-default {
+		background-color: $orange;
+		border: none;
+		color: $body-background;
+	}
 }
 
 /*********************
