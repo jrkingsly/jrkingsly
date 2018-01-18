@@ -72,6 +72,12 @@ h5, .h5 {
 
 }
 
+label {
+	font-family: $body-font-family;
+	color: #fff;
+	font-size: inherit;
+}
+
 /*********************
 HEADER STYLES
 *********************/

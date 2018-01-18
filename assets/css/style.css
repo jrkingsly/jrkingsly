@@ -4403,6 +4403,11 @@ h1, .h1 {
   border-bottom: 1px solid #FF7200;
   margin-bottom: 30px; }
 
+label {
+  font-family: "Saira", sans-serif;
+  color: #fff;
+  font-size: inherit; }
+
 /*********************
 HEADER STYLES
 *********************/
