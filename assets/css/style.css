@@ -4743,12 +4743,14 @@ COMMENT FORM STYLES
 .caldera-grid .btn-default {
   background-color: #FF7200;
   border: none;
-  color: #230F2B; }
+  color: #230F2B;
+  font-weight: inherit; }
 
 .caldera-grid .alert-success {
   background-color: #FF7200;
   border-color: #FF7200;
-  color: #230F2B; }
+  color: #230F2B;
+  text-shadow: none; }
 
 /*********************
 SIDEBARS & ASIDES
