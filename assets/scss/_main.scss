@@ -685,6 +685,7 @@ COMMENT FORM STYLES
 		background-color: $orange;
 		border: none;
 		color: $body-background;
+		font-weight: inherit;
 	}
 }
 
@@ -694,6 +695,7 @@ COMMENT FORM STYLES
 		background-color: $orange;
 		border-color: $orange;
 		color: $body-background;
+		text-shadow: none;
 	}
 }
 
