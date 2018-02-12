@@ -43,17 +43,17 @@
 
 			<div class="header">
 				<div class="row header-container">
-					<div class="small-12 medium-4 columns">
+					<div class="small-4 medium-4 columns">
 						<div id="hamburger">
 							<span></span>
 							<span></span>
 							<span></span>
 						</div>
 					</div>
-					<div class="small-12 medium-4 columns">
+					<div class="small-8 medium-4 columns">
 						<a href="/"><h1 class="logo">JKR</h1></a>
 					</div>
-					<div class="small-12 medium-4 columns nav-social">
+					<div class="hide-for-small-only small-4 medium-4 columns nav-social">
 						<a href="https://www.facebook.com/jrkingsly" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						<a href="https://www.linkedin.com/in/justin-rosen-01154136/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 						<a href="mailto:j11622@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
@@ -61,9 +61,21 @@
 				</div>
 				<nav id="nav">
 					<div class="row">
-						<div class="small-12 columns">
-							<?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
+						<div class="hide-for-small-only">
+							<div class="small-12 columns">
+								<?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
+							</div>
 						</div>
+						<div class="show-for-small-only">
+							<div class="small-8 columns">
+								<?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
+							</div>
+							<div class="small-4 columns nav-social-mobile">
+								<a href="https://www.facebook.com/jrkingsly" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/justin-rosen-01154136/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href="mailto:j11622@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+							</div>	
+						</div>		
 					</div>		
 				</nav>		
 			</div>

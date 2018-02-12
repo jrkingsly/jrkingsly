@@ -4402,6 +4402,13 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
 h1, .h1 {
   border-bottom: 1px solid #FF7200;
   margin-bottom: 30px; }
+  @media screen and (max-width: 39.9375em) {
+    h1, .h1 {
+      font-size: 2.5rem; } }
+
+@media screen and (max-width: 39.9375em) {
+  h3, .h3 {
+    font-size: 1.75rem; } }
 
 label {
   font-family: "Saira", sans-serif;
@@ -4434,6 +4441,9 @@ HEADER STYLES
     font-size: 3.5rem;
     margin-bottom: inherit;
     transition: ease-in-out .25s; }
+    @media screen and (max-width: 39.9375em) {
+      .header .logo {
+        text-align: right; } }
   .header .logo:hover {
     color: #fff; }
   .header #nav {
@@ -4460,6 +4470,10 @@ HEADER STYLES
       transition: ease-in-out .25s; }
     .header .nav-social i:hover {
       color: #fff; }
+  .header .nav-social-mobile .fa {
+    font-size: 24px;
+    padding: 7px 5px;
+    color: #230F2B; }
 
 .header.shrink {
   height: 75px; }
@@ -4530,14 +4544,24 @@ HOMEPAGE STYLES
 *********************/
 .intro {
   margin-bottom: 50px; }
+  @media screen and (max-width: 39.9375em) {
+    .intro .section-padding {
+      padding: 0 .625rem;
+      margin-top: 30px; } }
 
 .hp-selfie {
   width: 200px;
   height: 200px;
   border-radius: 50%; }
+  @media screen and (max-width: 39.9375em) {
+    .hp-selfie {
+      margin: auto; } }
 
 .about-me {
   padding-right: 75px; }
+  @media screen and (max-width: 39.9375em) {
+    .about-me {
+      padding-right: .625rem; } }
 
 /*********************
 POSTS & CONTENT STYLES

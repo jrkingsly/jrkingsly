@@ -54,6 +54,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 h1, .h1 {
 	border-bottom: 1px solid $orange;
 	margin-bottom: 30px;
+	
+	@include breakpoint(small only) {
+		font-size: 2.5rem;
+	}
 }
 
 h2, .h2 {
@@ -61,6 +65,9 @@ h2, .h2 {
 }
 
 h3, .h3 {
+	@include breakpoint(small only) {
+		font-size: 1.75rem;
+	}
 
 }
 
@@ -111,6 +118,10 @@ HEADER STYLES
 		font-size: 3.5rem;
 		margin-bottom: inherit;
 		transition: ease-in-out .25s;
+		
+		@include breakpoint(small only) {
+			text-align: right;
+		}
 	}
 	
 	.logo:hover {
@@ -151,6 +162,16 @@ HEADER STYLES
 		i:hover {
 			color: #fff;
 		}
+	}
+	
+	.nav-social-mobile {
+		
+		.fa {
+			font-size: 24px;
+			padding: 7px 5px;
+			color: $body-background;
+		}	
+		
 	}
 }
 
@@ -283,16 +304,31 @@ HOMEPAGE STYLES
 
 .intro {
 	margin-bottom: 50px;
+	
+	.section-padding {
+		@include breakpoint(small only) {
+			padding: 0 .625rem;
+			margin-top: 30px;
+		}
+	}
 }
 
 .hp-selfie {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+	
+	@include breakpoint(small only) {
+		margin: auto;
+	}
 }
 
 .about-me {
 	padding-right: 75px;
+	
+	@include breakpoint(small only) {
+		padding-right: .625rem;
+	}
 	
 	h1 {
 
