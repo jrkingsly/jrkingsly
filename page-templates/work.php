@@ -47,6 +47,10 @@ Template Name: Work
 		<p><a href="https://vegasstrongrc.org/" target="_blank">#VegasStrong Resiliency Center for Victims of 1 October (website)</a></p>
 	</div>
 	<div class="small-12 columns">
+		<h3>Clark County Department of Family Services</h3>
+		<p><a href="http://clarkcountyfostercare.org/" target="_blank">CCDFS (website)</a></p>
+	</div>
+	<div class="small-12 columns">
 		<h3>Staker Parson</h3>
 		<p><a href="http://stakerparson.com/" target="_blank">Staker Parson (multi-site installation)</a></p>
 	</div>
