@@ -336,6 +336,22 @@ HOMEPAGE STYLES
 }
 
 /*********************
+WORK PAGE
+*********************/
+
+.work {
+	a {
+		color: $orange;
+		text-decoration: underline;
+		transition: ease-in-out .25s;
+	}
+	
+	a:hover {
+		color: #fff;
+	}
+}
+
+/*********************
 POSTS & CONTENT STYLES
 *********************/
 #content {

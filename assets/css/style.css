@@ -4564,6 +4564,17 @@ HOMEPAGE STYLES
       padding-right: .625rem; } }
 
 /*********************
+WORK PAGE
+*********************/
+.work a {
+  color: #FF7200;
+  text-decoration: underline;
+  transition: ease-in-out .25s; }
+
+.work a:hover {
+  color: #fff; }
+
+/*********************
 POSTS & CONTENT STYLES
 *********************/
 #content #inner-content {
